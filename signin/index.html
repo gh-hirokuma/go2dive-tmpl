@@ -21,15 +21,17 @@
               go2dive signin
             </h1>
           </section>
-          <section class="w-1/2 bg-white flex flex-row">
-            <section class="w-1/2">
+          <section
+            class="w-full md:w-1/2 bg-white flex flex-row md:flex-col lg:flex-row"
+          >
+            <section class="hidden md:inline-block w-1/2 md:w-full lg:w-1/2">
               <img
                 class="object-cover w-full h-full"
                 src="https://images.unsplash.com/photo-1463468217891-c11f48e6310a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
                 alt="img"
               />
             </section>
-            <section class="w-1/2 flex flex-col p-12">
+            <section class="w-full w-1/2 md:w-full lg:w-1/2 flex flex-col p-12">
               <h2 class="font-bold text-lg text-blue-600 mb-8">Sign In</h2>
               <form class="flex flex-col">
                 <label class="text-xs" for="username">Username</label>
